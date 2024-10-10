@@ -1,12 +1,12 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://iscrimou.github.io/portfolio",
+  "homepage": "https://iscrimou.github.io/portfolio-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
