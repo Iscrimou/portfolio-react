@@ -8,9 +8,15 @@ export default function Navbar() {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="flex justify-center items-center m-8 gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
+        <a className="hover:text-purple-300" href="https://www.linkedin.com/in/junior-oliveira-622a19213/" target="_blank" title="Linkedin">
+          <FaLinkedin />
+        </a>
+        <a className="hover:text-purple-300" href="https://github.com/Iscrimou/" target="_blank" title="Github">
+          <FaGithub />
+        </a>
+        <a className="hover:text-purple-300" href="https://www.instagram.com/_oliveirajunin/" target="_blank" title="Instagram">
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   )
